@@ -40,11 +40,6 @@ class SideMenu
                                 'title' => 'Create Laptop Info'
                             ]
                         ]
-                        // ],
-                        // 'User' => [
-                        //     'icon' => 'activity',
-                        //     'route_name' => 'dashboard-overview',
-                        //     'title' => 'Dashboard Overview'
                     ]
                 ]
             ],

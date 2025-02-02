@@ -37,17 +37,18 @@
                     <div
                         class="mx-auto my-auto w-full rounded-md bg-white px-5 py-8 shadow-md dark:bg-darkmode-600 sm:w-3/4 sm:px-8 lg:w-2/4 xl:ml-20 xl:w-auto xl:bg-transparent xl:p-0 xl:shadow-none">
                         <h2 class="intro-x text-center text-2xl font-bold xl:text-left xl:text-3xl">
-                            Log In
+                            SAITAMA
                         </h2>
                         <div class="intro-x mt-2 text-center text-slate-400 xl:hidden">
-                            SAITAMA <br />
                             Sistem Aplikasi IT Asset Management
-                            Integrasi dan Kolaborasi untuk Pengelolaan Aset TI yang Lebih Efisien.
                         </div>
+                        <h2 class="intro-x mt-8 text-left text-2xl font-bold xl:text-left xl:text-3xl">
+                            Log In
+                        </h2>
                         <!-- BEGIN: Login Form -->
                         <form method="POST" action="{{ route('login') }}">
                             @csrf
-                            <div class="intro-x mt-8">
+                            <div class="intro-x mt-2">
                                 <x-base.form-input class="intro-x block min-w-full px-4 py-3 xl:min-w-[350px]"
                                     type="text" placeholder="Username" name="username" />
                                 <x-base.form-input class="intro-x mt-4 block min-w-full px-4 py-3 xl:min-w-[350px]"

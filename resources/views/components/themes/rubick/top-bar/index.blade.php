@@ -1,13 +1,42 @@
 <!-- BEGIN: Top Bar -->
+@php
+    // Retrieve the active first-level menu item, if set
+    $activeFirst = isset($mainMenu[$firstLevelActiveIndex]) ? $mainMenu[$firstLevelActiveIndex] : null;
+    // If a first-level item exists and has a 'sub_menu', get the active second-level item
+    $activeSecond =
+        $activeFirst && isset($activeFirst['sub_menu']) && isset($activeFirst['sub_menu'][$secondLevelActiveIndex])
+            ? $activeFirst['sub_menu'][$secondLevelActiveIndex]
+            : null;
+    // Similarly, if there is a second-level active menu with a 'sub_menu', get the active third-level item
+    $activeThird =
+        $activeSecond && isset($activeSecond['sub_menu']) && isset($activeSecond['sub_menu'][$thirdLevelActiveIndex])
+            ? $activeSecond['sub_menu'][$thirdLevelActiveIndex]
+            : null;
+@endphp
+
 <div class="relative z-[51] flex h-[67px] items-center border-b border-slate-200">
     <!-- BEGIN: Breadcrumb -->
     <x-base.breadcrumb class="-intro-x mr-auto hidden sm:flex">
-        <x-base.breadcrumb.link :index="0">Application</x-base.breadcrumb.link>
-        <x-base.breadcrumb.link :index="1" :active="true">
-            Dashboard12
-        </x-base.breadcrumb.link>
+        @if ($activeFirst)
+            <x-base.breadcrumb.link :index="0" :active="!($activeSecond || $activeThird)">
+                {{ $activeFirst['title'] }}
+            </x-base.breadcrumb.link>
+        @endif
+
+        @if ($activeSecond)
+            <x-base.breadcrumb.link :index="1" :active="!$activeThird">
+                {{ $activeSecond['title'] }}
+            </x-base.breadcrumb.link>
+        @endif
+
+        @if ($activeThird)
+            <x-base.breadcrumb.link :index="2" :active="true">
+                {{ $activeThird['title'] }}
+            </x-base.breadcrumb.link>
+        @endif
     </x-base.breadcrumb>
     <!-- END: Breadcrumb -->
+
     <!-- BEGIN: Search -->
     <div class="search intro-x relative mr-3 sm:mr-6">
         <div class="relative hidden sm:block">
