@@ -7,6 +7,8 @@ use App\Http\Controllers\ThemeController;
 use App\Http\Controllers\LayoutController;
 use App\Http\Controllers\SessionController;
 use App\Http\Controllers\PageRouteController;
+use App\Http\Controllers\Transaction\LaptopController;
+use App\Http\Controllers\Transaction\UserLaptopController;
 
 /*
 |--------------------------------------------------------------------------
@@ -31,9 +33,14 @@ Route::get('/check-profile', [SessionController::class, 'profile']);
 Route::middleware(['auth'])->group(function () {
     Route::controller(PageRouteController::class)->group(function () {
         Route::get('/', 'dashboardOverview')->name('dashboard-overview');
-        Route::get('/tr/laptop', 'laptop_index')->name('transaction-laptop-index');
-        Route::get('/tr/laptop/create', 'laptop_create')->name('transaction-laptop-create');
+        Route::get('/tr/join', 'join_index')->name('transaction-join-index');
     });
+
+    Route::get('/tr/laptop', [LaptopController::class, 'index'])->name('transaction-laptop-index');
+    Route::get('/tr/laptop/create', [LaptopController::class, 'create'])->name('transaction-laptop-create');
+
+    Route::get('/tr/user', [UserLaptopController::class, 'index'])->name('transaction-user-index');
+    Route::get('/tr/user/create', [UserLaptopController::class, 'create'])->name('transaction-user-create');
 });
 
 

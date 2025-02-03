@@ -1,24 +1,24 @@
 @extends('../themes/' . $activeTheme . '/' . $activeLayout)
 
 @section('subhead')
-    <title>Laptop Inventory - SAITAMA</title>
+    <title>User Directory - SAITAMA</title>
 @endsection
 
 @section('subcontent')
     <div class="intro-y mt-8 flex flex-col items-center sm:flex-row">
-        <h2 class="mr-auto text-lg font-medium">Laptop Inventory</h2>
+        <h2 class="mr-auto text-lg font-medium">User Directory</h2>
     </div>
 
-    <!-- BEGIN: Laptop Table -->
+    <!-- BEGIN: User Table -->
     <div class="intro-y box mt-5 p-5">
         <div class="scrollbar-hidden overflow-x-auto">
-            <div class="mt-5" id="tabulator-laptop"></div>
+            <div class="mt-5" id="tabulator-user"></div>
         </div>
     </div>
-    <!-- END: Laptop Table -->
+    <!-- END: User Table -->
 
     <script>
-        window.laptopData = @json($laptopData);
+        window.userData = @json($userData);
     </script>
 @endsection
 
@@ -31,5 +31,5 @@
 @endPushOnce
 
 @pushOnce('scripts')
-    @vite('resources/js/pages/transaction/laptop.js')
+    @vite('resources/js/pages/transaction/user.js')
 @endPushOnce

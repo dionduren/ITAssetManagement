@@ -40,6 +40,27 @@ class SideMenu
                                 'title' => 'Create Laptop Info'
                             ]
                         ]
+                    ],
+                    'User' => [
+                        'icon' => 'activity',
+                        'title' => 'User Laptop Overview',
+                        'sub_menu' => [
+                            'List' => [
+                                'icon' => 'activity',
+                                'route_name' => 'transaction-user-index',
+                                'title' => 'User Laptop Info'
+                            ],
+                            'Create' => [
+                                'icon' => 'activity',
+                                'route_name' => 'transaction-user-create',
+                                'title' => 'Create User Laptop Info'
+                            ]
+                        ]
+                    ],
+                    'Join User - Laptop' => [
+                        'icon' => 'activity',
+                        'route_name' => 'transaction-join-index',
+                        'title' => 'Join User Laptop Info'
                     ]
                 ]
             ],

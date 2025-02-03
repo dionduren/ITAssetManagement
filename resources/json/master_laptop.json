@@ -1,0 +1,532 @@
+[
+    {
+        "emp_no": "1210064",
+        "Laptop": "Dell Core i5/8GB/256Gb",
+        "no_asset": "missing"
+    },
+    {
+        "emp_no": "1210046",
+        "Laptop": "Dell Core i5/8GB/256Gb",
+        "no_asset": "missing"
+    },
+    {
+        "emp_no": "86111550",
+        "Laptop": "DELL LATITUDE 5300",
+        "no_asset": "PIHC5236"
+    },
+    {
+        "emp_no": "1210035",
+        "Laptop": "DELL LATITUDE 5320",
+        "no_asset": "PIHC5355"
+    },
+    {
+        "emp_no": "1190007",
+        "Laptop": "DELL LATITUDE 5320",
+        "no_asset": "PIHC5356"
+    },
+    {
+        "emp_no": "1160030",
+        "Laptop": "DELL LATITUDE 5320",
+        "no_asset": "PIHC5360"
+    },
+    {
+        "emp_no": "1160022",
+        "Laptop": "DELL LATITUDE 5320",
+        "no_asset": "PIHC5361"
+    },
+    {
+        "emp_no": "1100091",
+        "Laptop": "DELL LATITUDE 5320",
+        "no_asset": "PIHC5362"
+    },
+    {
+        "emp_no": "1100089",
+        "Laptop": "DELL LATITUDE 5320",
+        "no_asset": "PIHC5369"
+    },
+    {
+        "emp_no": "1210047",
+        "Laptop": "DELL LATITUDE 5320",
+        "no_asset": "PIHC5381"
+    },
+    {
+        "emp_no": "1190017",
+        "Laptop": "DELL LATITUDE 5320",
+        "no_asset": "PIHC5384"
+    },
+    {
+        "emp_no": "1210049",
+        "Laptop": "DELL LATITUDE 5320",
+        "no_asset": "PIHC5385"
+    },
+    {
+        "emp_no": "1170048",
+        "Laptop": "DELL LATITUDE 5320",
+        "no_asset": "PIHC5388"
+    },
+    {
+        "emp_no": "86170013",
+        "Laptop": "DELL LATITUDE 5320",
+        "no_asset": "PIHC5391"
+    },
+    {
+        "emp_no": "1131006",
+        "Laptop": "DELL LATITUDE 5320",
+        "no_asset": "PIHC5392"
+    },
+    {
+        "emp_no": "1160058",
+        "Laptop": "DELL LATITUDE 5320",
+        "no_asset": "PIHC5397"
+    },
+    {
+        "emp_no": "1210044",
+        "Laptop": "DELL LATITUDE 5320",
+        "no_asset": "PIHC5399"
+    },
+    {
+        "emp_no": "1210096",
+        "Laptop": "DELL LATITUDE 5320",
+        "no_asset": "PIHC5400"
+    },
+    {
+        "emp_no": "1120043",
+        "Laptop": "DELL LATITUDE 5320",
+        "no_asset": "PIHC5402"
+    },
+    {
+        "emp_no": "1100100",
+        "Laptop": "DELL LATITUDE 5320",
+        "no_asset": "PIHC5403"
+    },
+    {
+        "emp_no": "1200019",
+        "Laptop": "DELL LATITUDE 5320",
+        "no_asset": "PIHC5406"
+    },
+    {
+        "emp_no": "1200022",
+        "Laptop": "DELL LATITUDE 5320",
+        "no_asset": "PIHC5416"
+    },
+    {
+        "emp_no": "82166426",
+        "Laptop": "DELL LATITUDE 5320",
+        "no_asset": "PIHC5417"
+    },
+    {
+        "emp_no": "1190026",
+        "Laptop": "DELL LATITUDE 5320",
+        "no_asset": "PIHC5419"
+    },
+    {
+        "emp_no": "1170038",
+        "Laptop": "DELL LATITUDE 5320",
+        "no_asset": "PIHC5420"
+    },
+    {
+        "emp_no": "1131063",
+        "Laptop": "DELL LATITUDE 5320",
+        "no_asset": "PIHC5422"
+    },
+    {
+        "emp_no": "1210001",
+        "Laptop": "DELL LATITUDE 5320",
+        "no_asset": "PIHC5431"
+    },
+    {
+        "emp_no": "1180033",
+        "Laptop": "DELL LATITUDE 5320",
+        "no_asset": "PIHC5432"
+    },
+    {
+        "emp_no": "85180048",
+        "Laptop": "DELL LATITUDE 5320",
+        "no_asset": "PIHC5437"
+    },
+    {
+        "emp_no": "1160014",
+        "Laptop": "DELL LATITUDE 5320",
+        "no_asset": "PIHC5443"
+    },
+    {
+        "emp_no": "1210090",
+        "Laptop": "DELL LATITUDE 5320",
+        "no_asset": "PIHC5444"
+    },
+    {
+        "emp_no": "84144304",
+        "Laptop": "DELL LATITUDE 5320",
+        "no_asset": "PIHC5445"
+    },
+    {
+        "emp_no": "1200095",
+        "Laptop": "DELL LATITUDE 5320",
+        "no_asset": "PIHC5446"
+    },
+    {
+        "emp_no": "86170002",
+        "Laptop": "DELL LATITUDE 5320",
+        "no_asset": "PIHC5452"
+    },
+    {
+        "emp_no": "1210025",
+        "Laptop": "DELL LATITUDE 5320",
+        "no_asset": "PIHC5456"
+    },
+    {
+        "emp_no": "1180018",
+        "Laptop": "DELL LATITUDE 5320",
+        "no_asset": "PIHC5457"
+    },
+    {
+        "emp_no": "1210040",
+        "Laptop": "DELL LATITUDE 5320",
+        "no_asset": "PIHC5459"
+    },
+    {
+        "emp_no": "1140065",
+        "Laptop": "DELL LATITUDE 5320",
+        "no_asset": "PIHC5461"
+    },
+    {
+        "emp_no": "1200021",
+        "Laptop": "DELL LATITUDE 5320",
+        "no_asset": "PIHC5462"
+    },
+    {
+        "emp_no": "1180011",
+        "Laptop": "DELL LATITUDE 5320",
+        "no_asset": "PIHC5464"
+    },
+    {
+        "emp_no": "1210097",
+        "Laptop": "DELL LATITUDE 5320",
+        "no_asset": "PIHC5468"
+    },
+    {
+        "emp_no": "1170032",
+        "Laptop": "DELL LATITUDE 5320",
+        "no_asset": "PIHC5471"
+    },
+    {
+        "emp_no": "1160065",
+        "Laptop": "DELL LATITUDE 5320",
+        "no_asset": "PIHC5473"
+    },
+    {
+        "emp_no": "1131043",
+        "Laptop": "DELL LATITUDE 5320",
+        "no_asset": "PIHC5477"
+    },
+    {
+        "emp_no": "1210089",
+        "Laptop": "DELL LATITUDE 5320",
+        "no_asset": "PIHC5478"
+    },
+    {
+        "emp_no": "1150081",
+        "Laptop": "DELL LATITUDE 5320",
+        "no_asset": "PIHC5479"
+    },
+    {
+        "emp_no": "1160095",
+        "Laptop": "DELL LATITUDE 5320",
+        "no_asset": "PIHC5480"
+    },
+    {
+        "emp_no": "1200088",
+        "Laptop": "DELL LATITUDE 5320",
+        "no_asset": "PIHC5481"
+    },
+    {
+        "emp_no": "1170015",
+        "Laptop": "DELL LATITUDE 5320",
+        "no_asset": "PIHC5482"
+    },
+    {
+        "emp_no": "1210084",
+        "Laptop": "DELL LATITUDE 5320",
+        "no_asset": "PIHC5483"
+    },
+    {
+        "emp_no": "1190018",
+        "Laptop": "DELL LATITUDE 5320",
+        "no_asset": "PIHC5487"
+    },
+    {
+        "emp_no": "1210108",
+        "Laptop": "DELL LATITUDE 5320",
+        "no_asset": "PIHC5495"
+    },
+    {
+        "emp_no": "1200091",
+        "Laptop": "DELL LATITUDE 5320",
+        "no_asset": "PIHC5498"
+    },
+    {
+        "emp_no": "1210072",
+        "Laptop": "DELL LATITUDE 5320",
+        "no_asset": "PIHC54XX"
+    },
+    {
+        "emp_no": "1210052",
+        "Laptop": "DELL LATITUDE 5320",
+        "no_asset": "PIHC5502"
+    },
+    {
+        "emp_no": "1120042",
+        "Laptop": "DELL LATITUDE 5320",
+        "no_asset": "PIHC5505"
+    },
+    {
+        "emp_no": "1160069",
+        "Laptop": "DELL LATITUDE 5320",
+        "no_asset": "PIHC5506"
+    },
+    {
+        "emp_no": "1160008",
+        "Laptop": "DELL LATITUDE 5320",
+        "no_asset": "PIHC5507"
+    },
+    {
+        "emp_no": "84093935",
+        "Laptop": "DELL LATITUDE 5321",
+        "no_asset": "missing"
+    },
+    {
+        "emp_no": "1200011",
+        "Laptop": "EliteBook 830 G7",
+        "no_asset": "PIHC5331"
+    },
+    {
+        "emp_no": "1160105",
+        "Laptop": "EliteBook 830 G7",
+        "no_asset": "PIHC5332"
+    },
+    {
+        "emp_no": "1170017",
+        "Laptop": "EliteBook 830 G7",
+        "no_asset": "PIHC5334"
+    },
+    {
+        "emp_no": "1170014",
+        "Laptop": "EliteBook 830 G7",
+        "no_asset": "PIHC5335"
+    },
+    {
+        "emp_no": "1180010",
+        "Laptop": "EliteBook 830 G7",
+        "no_asset": "PIHC5338"
+    },
+    {
+        "emp_no": "1131037",
+        "Laptop": "EliteBook 830 G7",
+        "no_asset": "PIHC5339"
+    },
+    {
+        "emp_no": "1160086",
+        "Laptop": "EliteBook 830 G7",
+        "no_asset": "PIHC5343"
+    },
+    {
+        "emp_no": "1100096",
+        "Laptop": "EliteBook 830 G7",
+        "no_asset": "PIHC5344"
+    },
+    {
+        "emp_no": "1130072",
+        "Laptop": "EliteBook 830 G7",
+        "no_asset": "PIHC5347"
+    },
+    {
+        "emp_no": "1180037",
+        "Laptop": "EliteBook 830 G7",
+        "no_asset": "PIHC5349"
+    },
+    {
+        "emp_no": "1160053",
+        "Laptop": "EliteBook 830 G7",
+        "no_asset": "PIHC5351"
+    },
+    {
+        "emp_no": "1170010",
+        "Laptop": "EliteBook 830 G7",
+        "no_asset": "PIHC5353"
+    },
+    {
+        "emp_no": "1170023",
+        "Laptop": "HP",
+        "no_asset": "PIHC 5147"
+    },
+    {
+        "emp_no": "86020735",
+        "Laptop": "HP 348 G7",
+        "no_asset": "PIHC5253"
+    },
+    {
+        "emp_no": "1131034",
+        "Laptop": "HP 348 G7",
+        "no_asset": "PIHC5256"
+    },
+    {
+        "emp_no": "83133226",
+        "Laptop": "HP 348 G7",
+        "no_asset": "PIHC5302"
+    },
+    {
+        "emp_no": "1170012",
+        "Laptop": "HP Core i5/12GB/256Gb",
+        "no_asset": "missing"
+    },
+    {
+        "emp_no": "1160025",
+        "Laptop": "HP EliteBook 830 G7",
+        "no_asset": "PIHC5329"
+    },
+    {
+        "emp_no": "1180040",
+        "Laptop": "HP Pavilion Core i7/16GB/512Gb",
+        "no_asset": "missing"
+    },
+    {
+        "emp_no": "1131046",
+        "Laptop": "HP Pavilion Core i7/16GB/512Gb",
+        "no_asset": "missing"
+    },
+    {
+        "emp_no": "1100088",
+        "Laptop": "Lemot / Hang",
+        "no_asset": "missing"
+    },
+    {
+        "emp_no": "1210063",
+        "Laptop": "Lenovo ThinkBook",
+        "no_asset": "PIHC1139"
+    },
+    {
+        "emp_no": "1130074",
+        "Laptop": "Lenovo ThinkBook",
+        "no_asset": "PIHC1143"
+    },
+    {
+        "emp_no": "1160088",
+        "Laptop": "Lenovo Thinkpad Core i7/16GB/1Tb",
+        "no_asset": "missing"
+    },
+    {
+        "emp_no": "1131045",
+        "Laptop": "Lenovo Thinkpad Core i7/16GB/512Gb",
+        "no_asset": "missing"
+    },
+    {
+        "emp_no": "86200021",
+        "Laptop": "Lenovo Thinkpad X390",
+        "no_asset": "PIHC5555"
+    },
+    {
+        "emp_no": "83143270",
+        "Laptop": "Penambahan HDD / Storage",
+        "no_asset": "missing"
+    },
+    {
+        "emp_no": "1210082",
+        "Laptop": "THINKPAD E14 Gen 5 YOGA",
+        "no_asset": "PIHC5814"
+    },
+    {
+        "emp_no": "1160026",
+        "Laptop": "THINKPAD X380 YOGA",
+        "no_asset": "PIHC5411"
+    },
+    {
+        "emp_no": "1160057",
+        "Laptop": "THINKPAD X380 YOGA",
+        "no_asset": "PIHC5511"
+    },
+    {
+        "emp_no": "87210007",
+        "Laptop": "THINKPAD X380 YOGA",
+        "no_asset": "PIHC5522"
+    },
+    {
+        "emp_no": "86170011",
+        "Laptop": "Thinkpad X390",
+        "no_asset": "PIHC 5537 MP"
+    },
+    {
+        "emp_no": "86112384",
+        "Laptop": "THINKPAD X390",
+        "no_asset": "PIHC5544"
+    },
+    {
+        "emp_no": "1210111",
+        "Laptop": "Zyrex Core i5/8GB/256Gb",
+        "no_asset": "missing"
+    },
+    {
+        "emp_no": "86150730",
+        "Laptop": "Zyrex Notebook Cruiser 20 I5-01",
+        "no_asset": "PIHC5600"
+    },
+    {
+        "emp_no": "86130211",
+        "Laptop": "Zyrex Notebook Cruiser 20 I5-01",
+        "no_asset": "PIHC5607"
+    },
+    {
+        "emp_no": "1190016",
+        "Laptop": "Zyrex Notebook Cruiser 20 I5-01",
+        "no_asset": "PIHC5608"
+    },
+    {
+        "emp_no": "87114181",
+        "Laptop": "Zyrex Notebook Cruiser 20 I5-01",
+        "no_asset": "PIHC5617"
+    },
+    {
+        "emp_no": "87073812",
+        "Laptop": "Zyrex Notebook Cruiser 20 I5-01",
+        "no_asset": "PIHC5618"
+    },
+    {
+        "emp_no": "85180093",
+        "Laptop": "Zyrex Notebook Cruiser 20 I5-01",
+        "no_asset": "PIHC5622"
+    },
+    {
+        "emp_no": "86170014",
+        "Laptop": "Zyrex Notebook Cruiser 20 I5-01",
+        "no_asset": "PIHC5623"
+    },
+    {
+        "emp_no": "87063656",
+        "Laptop": "Zyrex Notebook Cruiser 20 I5-01",
+        "no_asset": "PIHC5632"
+    },
+    {
+        "emp_no": "87124434",
+        "Laptop": "Zyrex Notebook Cruiser 20 I5-01",
+        "no_asset": "PIHC5650"
+    },
+    {
+        "emp_no": "86080739",
+        "Laptop": "Zyrex Notebook Cruiser 20 I5-01",
+        "no_asset": "PIHC5681"
+    },
+    {
+        "emp_no": "83153349",
+        "Laptop": "Zyrex Notebook Cruiser 20 I5-01",
+        "no_asset": "PIHC5696"
+    },
+    {
+        "emp_no": "1190029",
+        "Laptop": "Zyrex Notebook Cruiser 20 I5-01",
+        "no_asset": "PIHC5697"
+    },
+    {
+        "emp_no": "1160104",
+        "Laptop": "Zyrex Notebook Cruiser 20 I5-01",
+        "no_asset": "PIHC5784"
+    }
+]
