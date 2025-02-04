@@ -9,6 +9,9 @@ class AuthController extends Controller
 {
     public function loginPage()
     {
+        if (Auth::check()) {
+            return redirect('/dashboard'); // Redirect logged-in users
+        }
         return view('main/auth/login');
     }
 

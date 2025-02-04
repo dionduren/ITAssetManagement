@@ -11,18 +11,14 @@ return new class extends Migration
      */
     public function up(): void
     {
-        Schema::create('users', function (Blueprint $table) {
+        Schema::create('role_user', function (Blueprint $table) {
             $table->id();
-            $table->string('name');
-            $table->string('username')->unique()->after('name');
-            $table->string('email')->unique();
-            $table->timestamp('email_verified_at')->nullable();
-            $table->string('password');
+            $table->foreignId('user_id')->constrained()->onDelete('cascade');
+            $table->foreignId('role_id')->constrained()->onDelete('cascade');
             $table->softDeletes(); // Soft Delete
-            $table->rememberToken();
+            $table->timestamps();
             $table->string('updated_by')->nullable();
             $table->string('created_by')->nullable();
-            $table->timestamps();
         });
     }
 
@@ -31,6 +27,7 @@ return new class extends Migration
      */
     public function down(): void
     {
-        Schema::dropIfExists('users');
+        Schema::dropIfExists('role_user');
+        Schema::dropIfExists('user_roles');
     }
 };

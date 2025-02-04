@@ -154,7 +154,7 @@
         </x-base.menu.button>
         <x-base.menu.items class="mt-px w-56 bg-theme-1 text-white">
             <x-base.menu.header class="font-normal">
-                <div class="font-medium">{{ $fakers[0]['users'][0]['name'] }}</div>
+                <div class="font-medium">{{ Auth::user()->name }}</div>
                 <div class="mt-0.5 text-xs text-white/70 dark:text-slate-500">
                     {{ $fakers[0]['jobs'][0] }}
                 </div>

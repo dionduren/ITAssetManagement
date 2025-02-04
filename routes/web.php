@@ -3,6 +3,7 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\AuthController;
 use App\Http\Controllers\PageController;
+use App\Http\Controllers\RoleController;
 use App\Http\Controllers\ThemeController;
 use App\Http\Controllers\LayoutController;
 use App\Http\Controllers\SessionController;
@@ -32,15 +33,45 @@ Route::get('/check-profile', [SessionController::class, 'profile']);
 
 Route::middleware(['auth'])->group(function () {
     Route::controller(PageRouteController::class)->group(function () {
-        Route::get('/', 'dashboardOverview')->name('dashboard-overview');
-        Route::get('/tr/join', 'join_index')->name('transaction-join-index');
+        Route::get('/', 'main_dashboard')->name('main-dashboard');
+        Route::get('/dashboard-overview', 'dashboardOverview')->name('dashboard-overview');
     });
 
-    Route::get('/tr/laptop', [LaptopController::class, 'index'])->name('transaction-laptop-index');
-    Route::get('/tr/laptop/create', [LaptopController::class, 'create'])->name('transaction-laptop-create');
 
-    Route::get('/tr/user', [UserLaptopController::class, 'index'])->name('transaction-user-index');
-    Route::get('/tr/user/create', [UserLaptopController::class, 'create'])->name('transaction-user-create');
+    // TO DO LIST
+    Route::middleware(['role:admin'])->group(function () {
+        // Route::get('/admin', function () {
+        //     return view('admin.index'); // Admin-only view
+        // })->name('admin.dashboard');
+
+        Route::resource('roles', RoleController::class)->except(['create', 'show']);
+        Route::post('roles/{id}/restore', [RoleController::class, 'restore'])->name('roles.restore');
+        Route::delete('roles/{id}/force-delete', [RoleController::class, 'forceDelete'])->name('roles.forceDelete');
+
+        Route::get('/tr/laptop', [LaptopController::class, 'index'])->name('transaction-laptop-index');
+        Route::get('/tr/laptop/create', [LaptopController::class, 'create'])->name('transaction-laptop-create');
+
+        Route::get('/tr/user', [UserLaptopController::class, 'index'])->name('transaction-user-index');
+        Route::get('/tr/user/create', [UserLaptopController::class, 'create'])->name('transaction-user-create');
+
+        Route::get('/tr/join', [PageRouteController::class, 'join_index'])->name('transaction-join-index');
+    });
+
+    // TO DO LIST
+    Route::middleware(['role:manager'])->group(function () {
+        // Route::get('/manager', function () {
+        //     return view('manager.index'); // Manager-only view
+        // })->name('manager.dashboard');
+
+        Route::get('/tr/join', [PageRouteController::class, 'join_index'])->name('transaction-join-index');
+    });
+
+    // TO DO LIST
+    Route::middleware(['role:user'])->group(function () {
+        // Route::get('/user', function () {
+        //     return view('user.index'); // User-only view
+        // })->name('user.dashboard');
+    });
 });
 
 

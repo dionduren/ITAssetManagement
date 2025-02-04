@@ -8,12 +8,16 @@ use Illuminate\Support\Facades\File;
 
 class PageRouteController extends Controller
 {
+  public function main_dashboard(): View
+  {
+    return view('main/dashboard/main');
+  }
   public function dashboardOverview(): View
   {
     return view('main/dashboard/overview');
   }
 
-  public function laptop_index(): View
+  public function join_index(): View
   {
     // Load JSON files
     $karyawanJsonPath = resource_path('json/master_karyawan.json');
@@ -35,11 +39,10 @@ class PageRouteController extends Controller
         'employee_status' => $employee['employee_status'],
         'pos_title' => $employee['pos_title'],
         'laptop' => $laptopInfo['Laptop'] ?? ' - ',
-        'asset_no' => $laptopInfo['No. Asset'] ?? ' - '
+        'asset_no' => $laptopInfo['no_asset'] ?? ' - '
       ];
     }
 
     return view('main/transaction/join/index', compact('mergedData'));
   }
-
 }

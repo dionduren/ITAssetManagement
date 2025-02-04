@@ -2,6 +2,8 @@
 
 namespace App\Main;
 
+use Illuminate\Support\Facades\Auth;
+
 class SideMenu
 {
     /**
@@ -9,6 +11,25 @@ class SideMenu
      */
     public static function menu(): array
     {
+
+        // $menu = [
+        //     [
+        //         'icon' => 'home',
+        //         'title' => 'Dashboard',
+        //         'route_name' => 'main-dashboard',
+        //     ],
+        //     [
+        //         'icon' => 'settings',
+        //         'title' => 'Settings',
+        //         'route_name' => 'transaction-laptop-index',
+        //     ]
+        // ];
+
+        // \Log::info("SideMenu Data: ", $menu); // Log to check if data exists
+        // return $menu;
+
+        $user = Auth::user(); // Get logged-in user
+
         return [
             'main-dashboard' => [
                 'icon' => 'home',
@@ -16,12 +37,23 @@ class SideMenu
                 'sub_menu' => [
                     'Dashboard Utama' => [
                         'icon' => 'activity',
+                        'route_name' => 'main-dashboard',
+                        'title' => 'Main Dashboard'
+                    ]
+                ]
+            ],
+            'dashboard-example' => [
+                'icon' => 'home',
+                'title' => 'Dashboard Example',
+                'sub_menu' => [
+                    'Dashboard Example' => [
+                        'icon' => 'activity',
                         'route_name' => 'dashboard-overview',
                         'title' => 'Dashboard Overview'
                     ]
                 ]
             ],
-            'transaction' => [
+            'transaction' => ($user && method_exists($user, 'isAdmin') && $user->isAdmin()) ? [
                 'icon' => 'scan-barcode',
                 'title' => 'Transaction',
                 'sub_menu' => [
@@ -63,7 +95,18 @@ class SideMenu
                         'title' => 'Join User Laptop Info'
                     ]
                 ]
-            ],
+            ] : null, // Hide if user is not admin
+            'admin'  => ($user && method_exists($user, 'isAdmin') && $user->isAdmin()) ?  [
+                'icon' => 'home',
+                'title' => 'Admin Page',
+                'sub_menu' => [
+                    'roles.index' => [
+                        'icon' => 'activity',
+                        'route_name' => 'roles.index',
+                        'title' => 'Roles'
+                    ]
+                ]
+            ] : null, // Hide if user is not admin
             'divider',
             'dashboard' => [
                 'icon' => 'home',
